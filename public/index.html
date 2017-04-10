@@ -4,8 +4,23 @@
   <meta charset="utf-8">
   <title>page transistion practice</title>
   <link rel="stylesheet" href="/app.css">
+  <script src="js/modernizr-custom.js"></script>
 </head>
 <body>
+  <main class="container">
+    <div class="pages">
+      <div class="page page__current">
+        <h1>Hi! I'm the first page you should see!</h1>
+      </div>
+      <div class="page">
+        <h1>Hi! I'm the second page you should see!</h1>
+      </div>
+    </div>
+    <nav class="page__nav">
+      <button>Click to see the next page!</button>
+    </nav>
+  </main>
+
   <script src="/app.js" charset="utf-8"></script>
 </body>
 </html>
